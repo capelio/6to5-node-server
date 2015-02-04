@@ -1,0 +1,17 @@
+{
+  "name": "6to5-node-server",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "author": "C. Corey Capel <corey@capelio.com> (https://www.capelio.com)",
+  "license": "ISC",
+  "dependencies": {
+    "toml": "^2.1.1"
+  },
+  "devDependencies": {
+    "6to5": "^3.2.0",
+    "tape": "^3.4.0"
+  },
+  "scripts": {
+    "build": "6to5 src --out-dir ."
+  }
+}

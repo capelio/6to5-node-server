@@ -1,0 +1,5 @@
+# Aren't comments in config files wonderful? :)
+
+[server]
+host = "localhost"
+port = 8081
